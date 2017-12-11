@@ -22,10 +22,10 @@ $item = Product::Find($_GET['id']);
                 <h3></h3>
             </p>
             <p>
-                <h3>Hình ảnh: </h3>
+                <h3>Hình ảnh:<?= $item->image ?> </h3>
             </p>
-                <a href="source/image/product/{{$photo->image}}" class="image-link">
-                    <img src="source/image/product/{{$photo->image}}" alt="" height="250px">
+                <a href="#" class="image-link">
+                    <img src="#" alt="" height="250px">
                 </a>
                 <br><br>
         </div>
@@ -33,7 +33,7 @@ $item = Product::Find($_GET['id']);
             <aside class="profile-card">
                 <header>
                     <a target="_blank" href="#">
-                    <img src="source/image/product/{{$product->image}}" width="200px" class="hoverZoomLink">
+                    <img src="#" width="200px" class="hoverZoomLink">
                     </a>
                     <h3>Tổng lượt xem: </h3>
                     <h3>Lần xem cuối cùng: </h3>

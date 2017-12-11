@@ -11,7 +11,7 @@
   <!-- bit of a bio; who are you? -->
   <div class="profile-bio">
     <p>Username: &nbsp;&nbsp;Quốc</p>
-    <p>Email:&nbsp;&nbsp;@gamil.com</p>
+    <p>Email:&nbsp;&nbsp;@gmail.com</p>
     <p>Password:&nbsp;&nbsp;*******</p>
   </div>
   <!-- some social links to show off -->

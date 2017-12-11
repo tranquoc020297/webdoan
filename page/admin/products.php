@@ -4,7 +4,7 @@ $products = Product::all();
 ?>
 
 <div class="container">
-    <h2 style="text-align:center">Danh sách Nhà Đất</h2>
+    <h2 style="text-align:center">Danh sách Sản Phẩm</h2>
     <div class="row">
         <div class="col-md-1"></div>
         <div class="col-md-10">

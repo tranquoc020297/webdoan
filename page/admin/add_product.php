@@ -1,6 +1,6 @@
 <?php
     require_once('../../Controller/ProductController.php');
-    if(isset($_POST))
+    if(isset($_GET['submit-add']))
         save();
 ?>
 
@@ -8,7 +8,7 @@
     <div class="row">
         <div class="col-md-2"></div>
         <div class="col-md-8">
-            <form action="" method="post" enctype="multipart/form-data">
+            <form action="<?php $_PHP_SELF ?>" method="post" enctype="multipart/form-data">
                 <h2 style="text-align:center">Thêm bài viết</h2>
                 <div class="form-group row">
                     <label class="col-md-2 col-form-label" for="tieude">Tiêu Đề</label>
@@ -54,7 +54,7 @@
                         <input type="file" class="form-control-file" id="images" name="images[]" multiple>
                     </div>
                 </div>
-                <input type="submit" style="text-align:center" class="btn btn-primary" value="Thêm" name="add">
+                <input type="submit" style="text-align:center" class="btn btn-primary" name="submit-add" value="Thêm">
             </form>
         </div>
         <div class="col-md-2"></div>
